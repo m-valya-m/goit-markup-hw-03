@@ -1,0 +1,37 @@
+.portfolio-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 94px;
+}
+.more {
+  border-radius: 4px;
+ font-weight: 500;
+ color: black;
+ font-size: 16px;
+  width: 136px;
+  height: 30px;
+  padding: 10px 35px 10px 35px;
+  background-color: #f5f4fa;
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+.more:hover{background: #2196F3; color: white;}
+.portfolio-info > li {
+  border: 1px solid #eeeeee;
+  width: 370px;
+}
+.line {
+  border: 1px solid #ececec;
+  margin-bottom: 100px;
+}
+.btn a :hover {
+  background-color: #2196f3;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.btn > li {
+  padding-right: 10px;
+}

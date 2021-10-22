@@ -1,0 +1,147 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+header {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.nomarker {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nomarker > li {
+  list-style-type: none; /* Убираем маркеры */
+}
+.nomarker > li:last-child {
+  padding-left: 100px;
+}
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+.nomarker2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nomarker2 > li {
+  list-style-type: none; /* Убираем маркеры */
+}
+
+.main-link {
+  color: blue;
+}
+.backgr {
+  background: #2f303a;
+
+  height: 600px;
+ margin-bottom: 94px;
+}
+.icon {
+  display: flex;
+  justify-content: space-between;
+}
+.icon-img {
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  text-align: center;
+}
+.icon-img > img {
+  margin-top: 20px;
+}
+.cool {
+  margin-top: 20px;
+}
+.block1 {
+  width: 696px;
+  height: 120px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 200px;
+}
+.solution {
+  color: #fff;
+  font-weight: 900;
+  font-size: 44px;
+  text-transform: uppercase;
+}
+.but {
+  color: #fff;
+  width: 136px;
+  height: 30px;
+  padding: 10px 35px 10px 35px;
+  background-color: #2196f3;
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+.enumeration {
+  display: flex;
+  justify-content: space-between;
+}
+li {
+  list-style-type: none; /* Убираем маркеры */
+}
+.enumeration > li {
+  width: 270px;
+}
+.team > li {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.enumeration > li > h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+footer {
+  background: #2f303a;
+  height: 252px;
+  padding-top: 60px;
+}
+.ad {
+  color: #fff;
+}
+
+.change-c:active{background-color: 
+  #2196F3;}
+.our {
+  background-color: #f5f4fa;
+  /* width: 1600px; ; */
+  height: 648px;
+  text-align: center;
+  padding-top: 94px;
+  margin-top: 94px;
+}
+.title-what-to-do {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  padding-bottom: 50px;
+}
+.team {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 94px;
+
+}
+a {
+  text-decoration: none;
+} /* Отменяем подчеркивание у ссылки */
+.location > li {
+  padding-bottom: 10px;
+}
+.location > li:first-child {
+  padding-bottom: 20px;
+}
+.link:hover {
+  color: rgb(91, 190, 236);
+}
