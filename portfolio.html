@@ -1,107 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/style-portfolio.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>portfolio</title>
   </head>
   <body>
-    <header class="container">
-      <ul class="nomarker">
+    <header class="main-nav">
+      <a href="#">
+        <p class="logo">Web<span class="logo-second-part">Studio</span></p></a
+      >
+      <nav>
+        <ul class="nav-link-row">
+          <li><a class="nav-link studio" href="./index.html">Студия</a></li>
+          <li><a class="nav-link" href="./portfolio.html">Портфолио</a></li>
+          <li><a class="nav-link" href="#">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <ul class="nav">
         <li>
-          <a href="#">
-            <img src="./img/webstudio.svg" title="webstudio" alt="webstudio" />
-          </a>
+          <a class="mail" href="mailto:info@devstudio.com" title="e-mail">
+            info@devstudio.com</a
+          >
         </li>
-        <li><a href="studio.html" class="change-c link">Студия</a></li>
-        <li><a href="portfolio.html">Портфолио</a></li>
-        <li><a href="contacts.html">Контакты</a></li>
         <li>
-          <ul class="contacts">
-            <li><a href="#">info@devstudio.com</a></li>
-            <li><a href="#">+38 096 111 11 11</a></li>
-          </ul>
+          <a class="phone" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
-    <div class="line"></div>
+    <div class="divider"></div>
     <main>
-      <ul class="btn container">
-        <li>
-          <a class="more" href="#">Все</a>
-        </li>
-        <li>
-          <a class="more" href="#"> Веб-сайты</a>
-        </li>
-        <li>
-          <a class="more" href="#">Приложения</a>
-        </li>
-        <li>
-          <a class="more" href="#">Дизайн</a>
-        </li>
-        <li>
-          <a class="more" href="#">Маркетинг</a>
-        </li>
-      </ul>
-      <ul class="portfolio-info container">
-        <li>
-          <img src="./img/notebook.jpg" alt="notebook" />
-          <h4>Технокряк</h4>
-          <p>Веб-сайт</p>
-        </li>
-        <li>
-          <img src="./img/color.jpg" alt="color" />
-          <h4>Постер New Orlean vs Golden Star</h4>
-          <p>Дизайн</p>
-        </li>
-        <li>
-          <img src="./img/sea.jpg" alt="sea" />
-          <h4>Ресторан Seafood</h4>
-          <p>Приложение</p>
-        </li>
-        <li>
-          <img src="./img/headphones.jpg" alt="headphones" />
-          <h4>Проект Prime</h4>
-          <p>Маркетинг</p>
-        </li>
-        <li>
-          <img src="./img/box.jpg" alt="box" />
-          <h4>Проект Boxes</h4>
-          <p>Приложение</p>
-        </li>
-        <li>
-          <img src="./img/monitor.jpg" alt="monitor" />
-          <h4>Inspiration has no Borders</h4>
-          <p>Веб-сайт</p>
-        </li>
-        <li>
-          <img src="./img/book.jpg" alt="book" />
-          <h4>Издание Limited Edition</h4>
-          <p>Дизайн</p>
-        </li>
-        <li>
-          <img src="./img/leiba.jpg" alt="leiba" />
-          <h4>Проект LAB</h4>
-          <p>Маркетинг</p>
-        </li>
-        <li>
-          <img src="./img/key.jpg" alt="key" />
-          <h4>Growing Business</h4>
-          <p>Приложение</p>
-        </li>
-      </ul>
+      <section>
+        <div class="con-b">
+          <ul class="control">
+            <li><button class="all but-c" type="button">Все</button></li>
+            <li><button class="but-c" type="button">Веб-сайты</button></li>
+            <li><button class="but-c" type="button">Приложения</button></li>
+            <li><button class="but-c" type="button">Дизайн</button></li>
+            <li><button class="but-c" type="button">Маркетинг</button></li>
+          </ul>
+        </div>
+        <div class="con">
+          <ul class="image">
+            <li class="flax-con">
+              <a href="">
+                <img
+                  src="./img/technocrack.jpg"
+                  alt="technocrack"
+                  width="370px"
+                />
+                <h3 class="dedicated">Технокряк</h3>
+                <p class="pale">Веб-сайт</p>
+              </a>
+            </li>
+            <li class="flax-con">
+              <a href="#">
+                <img src="./img/poster.jpg" alt="poster" width="370px" />
+                <h3 class="dedicated">Постер New Orlean vs Golden Star</h3>
+                <p class="pale">Дизайн</p>
+              </a>
+            </li>
+            <li class="flax-con">
+              <a href="">
+                <img src="./img/seafood.jpg" alt="seafood" width="370px" />
+                <h3 class="dedicated">Ресторан Seafood</h3>
+                <p class="pale">Приложение</p>
+              </a>
+            </li>
+            <li class="flax-con">
+              <a href="">
+                <img
+                  src="./img/headphones.jpg"
+                  alt="headphones"
+                  width="370px"
+                />
+                <h3 class="dedicated">Проект Prime</h3>
+                <p class="pale">Маркетинг</p>
+              </a>
+            </li>
+            <li class="flax-con">
+              <a href="">
+                <img src="./img/box.jpg" alt="box" width="370px" />
+                <h3 class="dedicated">Проект Boxes</h3>
+                <p class="pale">Приложение</p>
+              </a>
+            </li>
+            <li class="flax-con">
+              <a href=""
+                ><img src="./img/borders.jpg" alt="border" width="370px" />
+                <h3 class="dedicated">Inspiration has no Borders</h3>
+                <p class="pale">Веб-сайт</p>
+              </a>
+            </li>
+            <li class="flax-con">
+              <a href="">
+                <img src="./img/edition.jpg" alt="edition" width="370px" />
+                <h3 class="dedicated">Издание Limited Edition</h3>
+                <p class="pale">Дизайн</p>
+              </a>
+            </li>
+            <li class="flax-con">
+              <a href="">
+                <img src="./img/lab.jpg" alt="lab" width="370px" />
+                <h3 class="dedicated">Проект LAB</h3>
+                <p class="pale">Маркетинг</p>
+              </a>
+            </li>
+            <li class="flax-con">
+              <a href="">
+                <img src="./img/business.jpg" alt="business" width="370px" />
+                <h3 class="dedicated">Growing Business</h3>
+                <p class="pale">Приложение</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
     <footer>
-      <ul class="container location">
+      <div class="box-footer">
+        <a href="">
+          <p class="logo">Web<span class="logo-second-part">Studio</span></p></a
+        >
+        <p class="address-footer">г. Киев, пр-т Леси Украинки, 26</p>
+      </div>
+      <ul>
         <li>
-          <a href="#"><img src="./img/logof.svg" alt="webstudio" /></a>
+          <a class="nav-f" href="mailto:info@devstudio.com" title="e-mail">
+            info@devstudio.com</a
+          >
         </li>
-        <li><a class="ad" href="#">г. Киев, пр-т Леси Украинки, 26</a></li>
-        <li><a class="ad" href="#"> info@example.com</a></li>
-        <li><a class="ad" href="#">+38 099 111 11 11</a></li>
+        <li>
+          <a class="nav-f" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
       </ul>
     </footer>
   </body>
