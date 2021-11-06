@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /* Остальной код */
@@ -14,9 +16,20 @@ li {
 body {
   font-family: "Roboto", sans-serif;
 }
+
+header {
+  border-bottom: 1px solid #ececec;
+}
 .container {
-  width: 1170px;
-  margin: 0 auto;
+  align-items: center;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.super-flex{
+  display: flex;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -33,13 +46,9 @@ body {
 .logo-second-part {
   color: black;
 }
-.main-nav {
-  display: flex;
-  align-items: center;
-}
+
 .nav-link-row {
   display: flex;
-  margin-left: 40px;
 }
 .nav-link-row li {
   margin-right: 50px;
@@ -54,37 +63,37 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.nav {
+nav {
   display: flex;
-  margin-left: 260px;
+  margin-left: 93px;
 }
+
+.nav-2 {
+  display: flex;
+  margin-left: auto;
+}
+
 .nav li:last-child {
   margin-right: 0;
 }
 .nav-link:hover {
   color: #2196f3;
 }
-.divider {
-  border: 1px solid #ececec;
-}
 .studio {
   color: #2196f3;
+}
+.item-mail {
+  margin-right: 50px;
 }
 .mail {
   color: #2196f3;
   font-size: 14px;
   font-weight: 500;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  margin-right: 50px;
 }
 .phone {
   color: #757575;
   font-size: 14px;
   font-weight: 500;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  margin-right: 50px;
 }
 
 .portfolio {
@@ -93,7 +102,8 @@ body {
 .solutions {
   background-color: #2f303a;
   color: #ffffff;
-  height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .center-solution {
   font-weight: 900;
@@ -105,8 +115,7 @@ body {
   color: #ffffff;
   width: 696px;
   margin: 0 auto;
-  padding-top: 200px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 .main-info {
   display: flex;
@@ -248,12 +257,7 @@ p {
   justify-content: space-between;
   padding: 10px;
 }
-.con {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 .image {
   display: flex;
   /* Делаем Flex-контейнет многострочным */
@@ -288,9 +292,6 @@ footer {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.box-footer {
-  padding-left: 40px;
-}
 footer .logo-second-part {
   color: #ffffff;
 }

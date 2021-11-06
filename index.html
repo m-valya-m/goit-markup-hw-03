@@ -12,35 +12,37 @@
     <title>WebStudio</title>
   </head>
   <body>
-    <header class="main-nav container">
-      <a href="#">
-        <p class="logo">Web<span class="logo-second-part">Studio</span></p></a
-      >
-      <nav>
-        <ul class="nav-link-row">
-          <li><a class="nav-link studio" href="./index.html">Студия</a></li>
-          <li><a class="nav-link" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="nav-link" href="#">Контакты</a></li>
-        </ul>
-      </nav>
+    <header class="main-nav">
+      <div class="container super-flex">
+        <a href="#">
+          <p class="logo">Web<span class="logo-second-part">Studio</span></p></a
+        >
+        <nav>
+          <ul class="nav-link-row">
+            <li><a class="nav-link studio" href="./index.html">Студия</a></li>
+            <li><a class="nav-link" href="./portfolio.html">Портфолио</a></li>
+            <li><a class="nav-link" href="#">Контакты</a></li>
+          </ul>
+        </nav>
 
-      <ul class="nav">
-        <li>
-          <a class="mail" href="mailto:info@devstudio.com" title="e-mail">
-            info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="phone" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
+        <ul class="nav-2">
+          <li class="item-mail">
+            <a class="mail" href="mailto:info@devstudio.com" title="e-mail">
+              info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="phone" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
     </header>
     <main>
       <section class="solutions">
         <h1 class="center-solution">Эффективные решения для вашего бизнеса</h1>
         <button class="btn-service" type="button">Заказать услугу</button>
       </section>
-      <section class="container">
+      <section class="container super-flex">
         <ul class="main-info">
           <li>
             <h3>Внимание к деталям</h3>
@@ -76,70 +78,78 @@
           </li>
         </ul>
       </section>
-      <section class="container">
+      <section>
         <h2 class="title-section">Чем мы занимаемся</h2>
-
-        <ul class="title-images">
-          <li><img src="./img/1img.jpg" alt="img-1" /></li>
-          <li><img src="./img/2img.jpg" alt="img-2" /></li>
-          <li><img src="./img/3img.jpg" alt="img-3" /></li>
-        </ul>
+        <div class="container">
+          <ul class="title-images">
+            <li><img src="./img/1img.jpg" alt="img-1" /></li>
+            <li><img src="./img/2img.jpg" alt="img-2" /></li>
+            <li><img src="./img/3img.jpg" alt="img-3" /></li>
+          </ul>
+        </div>
       </section>
-      <section class="our-team ">
+
+      <section class="our-team">
         <h2 class="title-section">Наша Команда</h2>
-        <ul class="title-section-team container">
-          <li>
-            <img src="./img/Igor.jpg" alt="Игорь" width="270" height="260" />
-            <h3 lang="ru">Игорь Демьяненко</h3>
-            <p lang="en">Product Designer</p>
-          </li>
-          <li>
-            <img
-              src="./img/Michael.jpg"
-              alt="Михаил"
-              width="270"
-              height="260"
-            />
-            <h3 lang="ru">Михаил Ермаков</h3>
-            <p lang="en">Product Designer</p>
-          </li>
+        <div class="container">
+          <ul class="title-section-team container">
+            <li>
+              <img src="./img/Igor.jpg" alt="Игорь" width="270" height="260" />
+              <h3 lang="ru">Игорь Демьяненко</h3>
+              <p lang="en">Product Designer</p>
+            </li>
+            <li>
+              <img
+                src="./img/Michael.jpg"
+                alt="Михаил"
+                width="270"
+                height="260"
+              />
+              <h3 lang="ru">Михаил Ермаков</h3>
+              <p lang="en">Product Designer</p>
+            </li>
 
-          <li>
-            <img
-              src="./img/Nicholas.jpg"
-              alt="Николай"
-              width="270"
-              height="260"
-            />
-            <h3 lang="ru">Николай Тарасов</h3>
-            <p lang="en">Product Designer</p>
-          </li>
+            <li>
+              <img
+                src="./img/Nicholas.jpg"
+                alt="Николай"
+                width="270"
+                height="260"
+              />
+              <h3 lang="ru">Николай Тарасов</h3>
+              <p lang="en">Product Designer</p>
+            </li>
 
-          <li>
-            <img src="./img/Olga.jpg" alt="Ольга" width="270" height="260" />
-            <h3 lang="ru">Ольга Репина</h3>
-            <p lang="en">Product Designer</p>
-          </li>
-        </ul>
+            <li>
+              <img src="./img/Olga.jpg" alt="Ольга" width="270" height="260" />
+              <h3 lang="ru">Ольга Репина</h3>
+              <p lang="en">Product Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer>
-      <div class="box-footer container">
-        <a href="#">
-          <p class="logo">Web<span class="logo-second-part">Studio</span></p></a
-        >
-        <p class="address-footer">г. Киев, пр-т Леси Украинки, 26</p>
+      <div class="container">
+        <div>
+          <a href="#">
+            <p class="logo">Web<span class="logo-second-part">Studio</span></p>
+          </a>
+          <p class="address-footer">г. Киев, пр-т Леси Украинки, 26</p>
+        </div>
       </div>
-      <ul class="nav-footer container">
-        <li>
-          <a class="nav-f" href="mailto:info@devstudio.com" title="e-mail">
-            info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="nav-f" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
+      <div class="container">
+        <ul>
+          <li>
+            <a class="nav-f" href="mailto:info@devstudio.com" title="e-mail">
+              info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="nav-f" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
