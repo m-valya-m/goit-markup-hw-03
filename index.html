@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -14,9 +18,13 @@
   <body>
     <header class="main-nav">
       <div class="container super-flex">
-        <a href="#">
-          <p class="logo">Web<span class="logo-second-part">Studio</span></p></a
-        >
+        <div>
+          <a href="#">
+            <p class="logo">
+              Web<span class="logo-second-part">Studio</span>
+            </p></a
+          >
+        </div>
         <nav>
           <ul class="nav-link-row">
             <li><a class="nav-link studio" href="./index.html">Студия</a></li>
@@ -24,7 +32,6 @@
             <li><a class="nav-link" href="#">Контакты</a></li>
           </ul>
         </nav>
-
         <ul class="nav-2">
           <li class="item-mail">
             <a class="mail" href="mailto:info@devstudio.com" title="e-mail">
@@ -39,20 +46,24 @@
     </header>
     <main>
       <section class="solutions">
-        <h1 class="center-solution">Эффективные решения для вашего бизнеса</h1>
-        <button class="btn-service" type="button">Заказать услугу</button>
+        <div class="container">
+          <h1 class="center-solution">
+            Эффективные решения для вашего бизнеса
+          </h1>
+          <button class="btn-service" type="button">Заказать услугу</button>
+        </div>
       </section>
-      <section class="container super-flex">
+      <section class="container super-flex section-main-info">
         <ul class="main-info">
-          <li>
+          <li class="info">
             <h3>Внимание к деталям</h3>
-            <p c>
+            <p >
               Современные технологии Идейные соображения, а также начало
               повседневной работы по формированию позиции.
             </p>
           </li>
 
-          <li>
+          <li class="info">
             <h3>Пунктуальность</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров
@@ -60,7 +71,7 @@
             </p>
           </li>
 
-          <li>
+          <li class="info">
             <h3>Планирование</h3>
             <p>
               Равным образом консультация с широким активом в значительной
@@ -69,7 +80,7 @@
             </p>
           </li>
 
-          <li>
+          <li class="info">
             <h3>Современные технологии</h3>
             <p>
               Значимость этих проблем настолько очевидна, что реализация
@@ -79,19 +90,21 @@
         </ul>
       </section>
       <section>
-        <h2 class="title-section">Чем мы занимаемся</h2>
+       
         <div class="container">
+          <h2 class="title-section">Чем мы занимаемся</h2>
           <ul class="title-images">
-            <li><img src="./img/1img.jpg" alt="img-1" /></li>
-            <li><img src="./img/2img.jpg" alt="img-2" /></li>
-            <li><img src="./img/3img.jpg" alt="img-3" /></li>
+            <li class="img"><img src="./img/1img.jpg" alt="img-1" width="370"/></li>
+            <li class="img"><img src="./img/2img.jpg" alt="img-2" width="370"/></li>
+            <li class="img"><img src="./img/3img.jpg" alt="img-3" width="370" /></li>
           </ul>
         </div>
       </section>
 
       <section class="our-team">
-        <h2 class="title-section">Наша Команда</h2>
+       
         <div class="container">
+          <h2 class="title-section">Наша Команда</h2>
           <ul class="title-section-team container">
             <li>
               <img src="./img/Igor.jpg" alt="Игорь" width="270" height="260" />
@@ -131,7 +144,7 @@
     </main>
     <footer>
       <div class="container">
-        <div>
+        <div class="footer-logo">
           <a href="#">
             <p class="logo">Web<span class="logo-second-part">Studio</span></p>
           </a>

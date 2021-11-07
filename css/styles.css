@@ -21,15 +21,19 @@ header {
   border-bottom: 1px solid #ececec;
 }
 .container {
-  align-items: center;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
-.super-flex{
+.super-flex {
   display: flex;
+  align-items: center;
+}
+.section-main-info {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -40,8 +44,6 @@ header {
   line-height: 31px;
   letter-spacing: 0.03em;
   color: #2196f3;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 .logo-second-part {
   color: black;
@@ -85,10 +87,13 @@ nav {
 .item-mail {
   margin-right: 50px;
 }
-.mail {
+.mail:hover {
   color: #2196f3;
+}
+.mail {
   font-size: 14px;
   font-weight: 500;
+  color: #757575;
 }
 .phone {
   color: #757575;
@@ -113,7 +118,7 @@ nav {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  width: 696px;
+  max-width: 696px;
   margin: 0 auto;
   margin-bottom: 30px;
 }
@@ -127,6 +132,7 @@ nav {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
 }
 .main-info p {
   font-weight: normal;
@@ -136,16 +142,21 @@ nav {
 }
 .main-info > li {
   width: 270px;
+  margin-right: 30px;
 }
 .title-images {
+  padding-bottom: 94px;
   display: flex;
-  justify-content: space-between;
+
+  /* justify-content: space-between; */
   margin-top: 50px;
-  margin-bottom: 94px;
+  margin-left: 30px;
 }
 .title-section-team {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 94px;
+  padding-top: 50px;
 }
 .btn-service {
   background-color: #2196f3;
@@ -191,6 +202,9 @@ p {
   letter-spacing: 0.03em;
   color: #212121;
 }
+.img {
+  margin-right: 30px;
+}
 .our-team {
   background-color: #f5f4fa;
 }
@@ -225,10 +239,8 @@ p {
 }
 .control {
   display: flex;
-  justify-content: space-between;
   padding: 15px;
   margin: 0 auto;
-  width: 600px;
 }
 
 .control > li > button {
@@ -241,6 +253,7 @@ p {
   border-radius: 4px;
   border: none;
   cursor: pointer;
+  padding: 6px 22px;
 }
 .control > li > button:hover {
   background-color: #2196f3;
@@ -251,12 +264,6 @@ p {
   color: #ffffff;
 }
 /* portfolio */
-.con-b {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-}
 
 .image {
   display: flex;
@@ -265,7 +272,7 @@ p {
   justify-content: space-between;
   margin-left: -10px;
   margin-top: -10px;
-
+  margin-bottom: 94px;
   list-style: none;
 }
 .flax-con {
@@ -276,6 +283,8 @@ p {
 
 footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .address-footer {
   font-weight: normal;
@@ -294,4 +303,7 @@ footer {
 
 footer .logo-second-part {
   color: #ffffff;
+}
+.footer-logo {
+  margin-bottom: 10px;
 }
